@@ -28,4 +28,5 @@ const useStorage = (file) => {
 
 }
 
-export default useStorage; 
+export default useStorage;
+

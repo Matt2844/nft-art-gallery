@@ -3,15 +3,8 @@ import useFirestore from '../hooks/useFirestore';
 import { Animated } from "react-animated-css";
 
 export default function ImageGrid () {
-  const [pictureName, setPictureName] = useState('');
   const { docs } = useFirestore('images');
   console.log(docs, docs[3])
-
-  const addPictureName = () => {
-    docs.add({
-      photographer: `changed the name of photographer`
-    })
-  }
 
   return (
     <div className="img-grid">
