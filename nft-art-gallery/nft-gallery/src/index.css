@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.heading {
+  text-align: left;
+}
+
+.heading h1 {
+  margin: 1.7rem 0rem 1rem 3rem;
+}
+
+.heading button {
+  all: unset;
+  margin: 0rem 0rem 1rem 3rem;
+  font-weight: 200;
+}
+
+.heading button:hover {
+  color: rgb(0, 255, 21);
+  cursor: pointer;
+}
+
+form {
+  margin: 1rem;
+}
