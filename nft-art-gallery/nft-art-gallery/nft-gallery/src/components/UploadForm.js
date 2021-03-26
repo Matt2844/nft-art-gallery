@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { UserContext } from '../contexts/user';
 import ProgressBar from './ProgressBar';
 
 export default function UploadForm () {
@@ -21,15 +20,13 @@ export default function UploadForm () {
     }
   }
 
-  const msg = useContext(UserContext)
-
 
   return (
     <div>
       <form>
         <div clasName="file-input">
           <input type="file" id="file" className="inputfile" onChange={changeHandler} />
-          <label for="file">Select An Image {msg}</label>
+          <label for="file">Select An Image</label>
         </div>
         <div className="output">
           {error && (
