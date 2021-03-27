@@ -5,13 +5,13 @@ import 'firebase/auth';
 
 
 var firebaseConfig = {
-  apiKey: process.env.REACT_APP_API,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECTID,
-  storageBucket: process.env.REACT_APP_STORAGEBUCKET,
-  messagingSenderId: process.env.REACT_APP_MSGSENDERID,
-  appId: process.env.REACT_APP_APPID,
-  measurementId: process.env.REACT_APP_MEASUREMENTID
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: "nft-art-gallery-76015.firebaseapp.com",
+  projectId: "nft-art-gallery-76015",
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: "311846347382",
+  appId: "1:311846347382:web:b86e23910e87d7a6467557",
+  measurementId: "G-9R96CFNZN9"
 };
 
 firebase.initializeApp(firebaseConfig);
