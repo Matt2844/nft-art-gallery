@@ -34,3 +34,45 @@ code {
 form {
   margin: 1rem;
 }
+
+.img-wrap img {
+  margin: 1rem;
+  max-height: 45rem;
+  width: auto;
+}
+
+/* CONTACT FORM */ 
+
+.contact-wrap form {
+  margin-left: 2.5rem;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-wrap input {
+  margin: 0.5rem;
+  width: 14rem;
+}
+
+.contact-wrap textarea {
+  margin: 0.5rem;
+  width: 30rem;
+}
+
+.contact-wrap button {
+  width: 8rem;
+  margin: 0.5rem;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.contact-wrap button:hover {
+  background-color: black;
+  color: white;
+}

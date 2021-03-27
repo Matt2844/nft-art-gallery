@@ -1,12 +1,10 @@
-
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './App.css';
 import UploadForm from './components/UploadForm';
 import ImageGrid from './components/ImageGrid';
 import Heading from './components/Heading';
 import firebase from 'firebase';
 import { signInWithGoogle } from './firebase/config';
-
 
 function App () {
   const [userLoggedIn, setUserLoggedIn] = useState('');
@@ -33,14 +31,11 @@ function App () {
     setAdmin(false)
   }
 
-
   document.addEventListener('keypress', (event) => {
     if (event.key === 'l') {
       setAdmin(true);
     }
   })
-
-
 
   return (
     <div className="App">
