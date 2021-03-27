@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+a {
+  all: unset;
+}
+
 .heading {
   text-align: left;
 }
@@ -27,7 +31,7 @@ code {
 }
 
 .heading button:hover {
-  color: rgb(0, 255, 21);
+  color: rgb(16, 181, 29);
   cursor: pointer;
 }
 

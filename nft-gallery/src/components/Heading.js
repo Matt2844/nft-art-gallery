@@ -9,6 +9,10 @@ export default function Heading (props) {
     <div>
       <div className="heading">
         <h1>NFT Art Gallery</h1>
+        <a href='https://www.patreon.com/nft_art_gallery' target='_blank' rel='noopener noreferrer'>
+          <button>Donate To Gallery</button>
+        </a>
+        <br />
         {!contactForm ? (
           <button onClick={() => setShowContactForm(true)}>Contact</button>
         ) : (
