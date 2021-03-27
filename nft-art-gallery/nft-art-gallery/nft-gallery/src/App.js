@@ -31,11 +31,11 @@ function App () {
     setAdmin(false)
   }
 
-  document.addEventListener('keypress', (event) => {
-    if (event.key === 'l') {
-      setAdmin(true);
+  document.addEventListener("keypress", function onPress (event) {
+    if (event.key === "l" && event.ctrlKey) {
+      setAdmin(true)
     }
-  })
+  });
 
   return (
     <div className="App">
