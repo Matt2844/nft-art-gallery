@@ -39,10 +39,26 @@ form {
   margin: 1rem;
 }
 
+.img-wrap {
+  margin-bottom: 5rem;
+}
+
 .img-wrap img {
   margin: 1rem;
   max-height: 45rem;
   width: auto;
+}
+
+.img-wrap h3 {
+  margin-top: 0rem;
+  margin-bottom: 0.3rem;
+  font-weight: 300;
+}
+
+.img-wrap h4, 
+.img-wrap h5 {
+  margin: 0.1rem;
+  font-weight: 200;
 }
 
 /* CONTACT FORM */ 
