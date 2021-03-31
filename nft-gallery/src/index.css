@@ -96,3 +96,9 @@ form {
   background-color: black;
   color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .img-wrap img {
+    max-width: 90%;
+  }
+}
