@@ -24,6 +24,13 @@ a {
   margin: 1.7rem 0rem 1rem 3rem;
 }
 
+.heading p {
+  margin-left: 3rem;
+  width: 80%; 
+  font-weight: 300;
+  line-height: 1.5;
+}
+
 .heading button {
   all: unset;
   margin: 0rem 0rem 1rem 3rem;

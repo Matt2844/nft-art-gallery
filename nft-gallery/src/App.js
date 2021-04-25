@@ -5,11 +5,18 @@ import ImageGrid from './components/ImageGrid';
 import Heading from './components/Heading';
 import firebase from 'firebase';
 import { signInWithGoogle } from './firebase/config';
+import ReactGA from 'react-ga';
 
 function App () {
   const [userLoggedIn, setUserLoggedIn] = useState('');
   const [admin, setAdmin] = useState(false);
 
+  function initializeReactGA () {
+    ReactGA.initialize('UA-123791717-1');
+    ReactGA.pageview('/');
+  }
+
+  initializeReactGA();
 
   const handleAuthChanged = () => {
     signInWithGoogle()
